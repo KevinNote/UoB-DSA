@@ -1,6 +1,6 @@
 # Stack/栈
 
-LIFOs (Last-In-First-Out)
+LIFOs, Last-In-First-Out
 
 ## ADT
 
