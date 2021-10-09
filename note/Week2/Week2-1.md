@@ -5,7 +5,7 @@
 <a style="text-decoration:none; color: black;" href="https://github.com/KevinZonda">KevinZonda</a>
 </center>
 
-FIFOs, First-In-First-Out#
+FIFOs, First-In-First-Out
 
 ## ADT
 
