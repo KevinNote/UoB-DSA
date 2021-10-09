@@ -1,5 +1,10 @@
 # Stack/栈
 
+<center>
+<span>09/10/2021</span>
+<a style="text-decoration:none; color: black;" href="https://github.com/KevinZonda">KevinZonda</a>
+</center>
+
 LIFOs, Last-In-First-Out
 
 ## ADT

@@ -1,5 +1,10 @@
 # Linked Lists/链表
 
+<center>
+<span>09/10/2021</span>
+<a style="text-decoration:none; color: black;" href="https://github.com/KevinZonda">KevinZonda</a>
+</center>
+
 ## In Memory
 
 ![](img/ll-0.png)

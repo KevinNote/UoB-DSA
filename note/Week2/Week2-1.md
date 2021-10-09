@@ -1,5 +1,10 @@
 # Queue/队列
 
+<center>
+<span>09/10/2021</span>
+<a style="text-decoration:none; color: black;" href="https://github.com/KevinZonda">KevinZonda</a>
+</center>
+
 FIFOs, First-In-First-Out#
 
 ## ADT
