@@ -39,7 +39,8 @@ Mem[nums + 3] = 4;
   - memory allocation is automatic
   - freeing memory is automatic (by the garbage collector)
   - bounds of arrays are checked
-- In C or C++•allocations is explicit (similar to OS++ and Mem[-])
+- In C or C++
+  - allocations is explicit (similar to OS++ and Mem[-])
   - freeing memory is explicit (similar to OS++ and Mem[-])
   - bounds are not checked
 
