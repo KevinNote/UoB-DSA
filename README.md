@@ -18,3 +18,5 @@
 - [Week 2](note/Week2)
   - [Stack/栈](note/Week2/Week2-0.md)
   - [Queue/队列](note/Week2/Week2-1.md)
+- [Week 3](note/Week3)
+  - [Complexity](note/Week3/Week3-0.md)
