@@ -24,3 +24,5 @@
   - [Tree/树](note/Week4/Week4-0.md)
   - [Quad Trees/四叉树](note/Week4/Week4-1.md)
   - [Binary Search Tree/二叉查找树](note/Week4/Week4-2.md)
+- [Week 5]
+  - [AVL Tree/AVL树](note/Week5/Week5-0.md)
