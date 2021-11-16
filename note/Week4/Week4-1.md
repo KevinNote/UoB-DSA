@@ -22,7 +22,7 @@
   - `baseQT`: returns a single, leaf node quad tree with a value
   - `MakeQT(luqt, ruqt, llqt, rlqt)`
 - Accessors
-  - `isValue(qt)`: 判断是不是 value node（子叶）
+  - `isValue(qt)`: 判断是不是 value node（叶子节点）
   - `lu(qt)`: left upper
   - `ru(qt)`: right upper
   - `ll(qt)`: left lower
