@@ -26,3 +26,5 @@
   - [Binary Search Tree/二叉查找树](note/Week4/Week4-2.md)
 - [Week 5](note/Week5)
   - [AVL Tree/AVL树](note/Week5/Week5-0.md)
+- [Week 6](note/Week6)
+  - [B-Trees & B+Trees/B 树与 B+ 树](note/Week6/Week6-0.md)
