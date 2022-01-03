@@ -28,3 +28,5 @@
   - [AVL Tree/AVL树](note/Week5/Week5-0.md)
 - [Week 6](note/Week6)
   - [B-Trees & B+Trees/B 树与 B+ 树](note/Week6/Week6-0.md)
+- [Week 7](note/Week7)
+  - [Priority Queue, Binary Heap Trees & Binomial Heaps/优先队列，二叉堆树与二项堆](note/Week7/Week7-0.md)
