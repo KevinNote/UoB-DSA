@@ -151,9 +151,9 @@ private void BubbleUp(int i) {
     if (heap[i] > heap[Parent(i)])
     {
         // Swap(heap[i] heap[Parent(i)]);
-        int i = heap[i];
+        int temp = heap[i];
         heap[i] = heap[Parent(i)];
-        heap[Parent(i)] = i;
+        heap[Parent(i)] = temp;
 
         BubbleUp(Parent(i));
     }
@@ -260,14 +260,14 @@ public void Delete(int p)
     if (IsEmpty()) // or n < 1
         throw new InvalidOperationException("Empty Heap!");
 
-    if (i < 1 || i > n)
+    if (p < 1 || p > n)
         throw new IndexOutOfRangeException();
 
-    heap[i] = heap[n];
+    heap[p] = heap[n];
     -- n;
 
-    BubbleUp(i);
-    BubbleDown(i);
+    BubbleUp(p);
+    BubbleDown(p);
 }
 ```
 
