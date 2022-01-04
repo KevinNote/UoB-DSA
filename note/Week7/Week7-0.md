@@ -75,8 +75,8 @@ Key Value 决定了优先级。
 
 ```csharp
 public class PriorityHeap {
-    private int MAX = 100;
-    private int heap[MAX + 1];
+    private const int MAX = 100;
+    private int[] heap = new int[MAX + 1];
     private int n = 0;
 
     public int Value(int i) {
@@ -204,7 +204,8 @@ public void DeleteRoot()
    什么都不做，冒泡已经结束
 
 ```csharp
-private void BubbleDown(int i) {
+// 需要注意，这里其实 heap 和 n 已经在上文定义
+private void BubbleDown(int i, int[] heap, int n) {
     if (Left(i) > n)                // No Child
         return;
     else if (Right(i) > n)          // Only Left Child
@@ -212,9 +213,9 @@ private void BubbleDown(int i) {
         if (heap[i] < heap[Left(i)])
         {
             // Swap(heap[i] heap[Left(i)]);
-            int i = heap[i];
+            int temp = heap[i];
             heap[i] = heap[Left(i)];
-            heap[Left(i)] = i;
+            heap[Left(i)] = temp;
         }
         return;
     }
@@ -224,20 +225,20 @@ private void BubbleDown(int i) {
             heap[i] < heap[Left(i)])
         {
             // Swap(heap[i] heap[Left(i)]);
-            int i = heap[i];
+            int temp = heap[i];
             heap[i] = heap[Left(i)];
-            heap[Left(i)] = i;
+            heap[Left(i)] = temp;
 
-            BubbleDown(Left(i));
+            BubbleDown(Left(i), heap, n);
         }
         else if (heap[i] < heap[Right(i)])
         {
             // Swap(heap[i] heap[Right(i)]);
-            int i = heap[i];
+            int temp = heap[i];
             heap[i] = heap[Right(i)];
-            heap[Right(i)] = i;
+            heap[Right(i)] = temp;
 
-            BubbleDown(Right(i));
+            BubbleDown(Right(i), heap, n);
         }
     }
 }
