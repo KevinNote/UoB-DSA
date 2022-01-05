@@ -32,3 +32,5 @@
   - [Priority Queue, Binary Heap Trees & Binomial Heaps/优先队列，二叉堆树与二项堆](note/Week7/Week7-0.md)
 - [Week 8](note/Week8)
   - [Sorting Algorithms/排序算法](note/Week8/Week8-0.md)
+- [Week 9](note/Week9)
+  - [Sorting Algorithms/排序算法](note/Week9/Week9-0.md)
