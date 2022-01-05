@@ -1,5 +1,10 @@
 # Sorting Algorithms/排序算法
 
+<center>
+<span>05/01/2022</span>
+<a style="text-decoration:none; color: black;" href="https://github.com/KevinZonda">KevinZonda</a>
+</center>
+
 ## Introduction
 
 ### Java
