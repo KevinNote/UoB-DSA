@@ -29,9 +29,7 @@ Key Value 决定了优先级。
 
 **定义：** 完全二叉树从根结点到倒数第二层满足完美二叉树，最后一层可以不完全填充，其叶子结点都靠左对齐。
 
-> **Definition:** A Complete Binary Tree (CBT) is a binary tree in which every level, 
-> except possibly the last, is completely filled, and all nodes 
-> are as far left as possible.
+> **Definition:** A Complete Binary Tree (CBT) is a binary tree in which every level, except possibly the last, is completely filled, and all nodes are as far left as possible.
 
 ![](img/CBT.png)
 
