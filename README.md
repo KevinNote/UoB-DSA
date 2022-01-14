@@ -33,6 +33,6 @@
 - [Week 8](note/Week8)
   - [Sorting Algorithms/排序算法](note/Week8/Week8-0.md)
 - [Week 9](note/Week9)
-  - [Sorting Algorithms/排序算法](note/Week9/Week9-0.md)
+  - [HashTable/哈希表](note/Week9/Week9-0.md)
 - [Week 10](note/Week10)
   - [Graph/图](note/Week10/Week10-0.md)
