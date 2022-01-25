@@ -23,7 +23,7 @@ BST 是一个树要么为空要么：
 func insert(v, bst) {
     if (isEmpty(bst))
         return MakeTree(v, EmptyTree, EmptyTree)
-    else if (v < root(bst)>) {
+    else if (v < root(bst)) {
         return MakeTree(
             root(bst),
             insert(v, left(bst)),
